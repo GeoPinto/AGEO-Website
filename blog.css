@@ -22,7 +22,7 @@ p {
     font-weight: 200;
 }
 .blue {
-    color: #1f98ff
+    color: #1f98ff;
 }
 .bold {
     font-weight: 500;
@@ -36,6 +36,10 @@ p {
 #profile {
     width: 35px;
     height: 35px;   
+}
+.icons {
+    width: 30px;
+    height: 30px;  
 }
 /* Here starts nav styles*/
 .nav {
@@ -74,7 +78,7 @@ p {
 }
 .menu p, .search p {
     color: #65747e;
-    font-size: 26px;
+    font-size: 20px;
 }
 .menu {
     margin-left: 25px;
@@ -90,8 +94,8 @@ p {
     width: 80%;
     margin: auto;
     display: block;
-    height: 800px;
-    background-image: url(images/snakeCanyon.webp);
+    height: 600px;
+    background-image: url(images/field.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +111,7 @@ p {
     width: 680px;
     text-align: center;
     padding: 0.25em;
-    opacity: 0.97;
+    opacity: 0.90;
     border-radius: 2px;
     margin: 0 0 20px -60px;
 }
@@ -122,4 +126,84 @@ p {
 }
 .info p {
     margin: 15px 0;
+}
+/*start of content section*/
+.content {
+    width: 100%;
+}
+.contentWrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.mainContent {
+    flex: 3; /*3x larger than sidebar*/
+}
+.sideBar {
+    flex: 1;
+    margin-top: 30px;
+    text-align: right;
+}
+.sideBar img{
+    margin-right: 10px;
+}
+.mainContent p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #65747e;
+    line-height: 40px;
+}
+.mainContent h1 {
+    margin-top: 75px;
+}
+.mainContent h3 {
+    margin-top: 75px;
+}
+.mainContent image{
+    width: 90%;
+}
+.tags p{
+    display: inline-block;
+    margin: 30px 10px 0 10px;
+    background-color: #e4eaef;
+    border-radius: 100px;
+    padding: 0.1em 2em;
+}
+.relatedChild {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.relatedChild h3 {
+    margin: 0;
+}
+.relatedChild p {
+    margin: 0 0 5px 0;
+    line-height: 30px;
+}
+.relatedChild a {
+    text-decoration: none;
+}
+.relatedLeft, .relatedRight {
+    flex: 1;
+}
+.related {
+    margin-bottom: 100px;
+}
+.footer {
+    height: 110px;
+    width: 100%;
+    line-height: 110px;
+}
+.footerWrapper {
+    width: 80%;
+    margin: auto;
+}
+.footerWrapper p{
+    color: #65747e;
+    float: left;
+}
+.footerWrapper img {
+    margin: 15px;
+    vertical-align: middle;
 }
